@@ -1,5 +1,4 @@
 # Prerequisites
-#####
 - JDK 11
 - Maven 3
 - MySQL 8 
@@ -11,6 +10,7 @@
 - Maven
 - JSP
 - MySQL
+
 # Database
 Here,we used Mysql DB 
 MSQL DB Installation Steps for Linux ubuntu 14.04:
