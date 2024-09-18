@@ -85,13 +85,6 @@ jobs:
   DEPLOY:
     needs: BUILD_AND_PUBLISH
     runs-on: ubuntu-latest
-    steps:
-      - name: Code checkout
-        uses: actions/checkout@v4
-
-  DEPLOY:
-    needs: BUILD_AND_PUBLISH
-    runs-on: ubuntu-latest
     environment: production
 
     steps:
